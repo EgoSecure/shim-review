@@ -5,6 +5,7 @@ RUN apt-get install -y build-essential git bsdmainutils wget dos2unix
 
 RUN mkdir /build
 COPY build-shim.sh egosecure.public.cer sbat.egosecure.csv shim.efi /build/
+COPY patches/*.patch /build/patches/
 WORKDIR /build
 
 RUN chmod +x build-shim.sh 

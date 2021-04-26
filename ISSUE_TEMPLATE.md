@@ -1,13 +1,13 @@
 Make sure you have provided the following information:
 
  - [X] link to your code branch cloned from rhboot/shim-review in the form user/repo@tag  
- [EgoSecure/shim-review@egosecure-shim-x64-20210422](https://github.com/EgoSecure/shim-review/tree/egosecure-shim-x64-20210422)
+ [EgoSecure/shim-review@egosecure-shim-x64-20210426](https://github.com/EgoSecure/shim-review/tree/egosecure-shim-x64-20210426)
  - [X] completed README.md file with the necessary information  
- https://github.com/EgoSecure/shim-review/tree/egosecure-shim-x64-20210422/README.md
+ https://github.com/EgoSecure/shim-review/tree/egosecure-shim-x64-20210426/README.md
  - [X] shim.efi to be signed  
- https://github.com/EgoSecure/shim-review/tree/egosecure-shim-x64-20210422/shim.efi
+ https://github.com/EgoSecure/shim-review/tree/egosecure-shim-x64-20210426/shim.efi
  - [X] public portion of your certificate(s) embedded in shim (the file passed to VENDOR_CERT_FILE)  
- https://github.com/EgoSecure/shim-review/tree/egosecure-shim-x64-20210422/egosecure.public.cer
+ https://github.com/EgoSecure/shim-review/tree/egosecure-shim-x64-20210426/egosecure.public.cer
  - [X] binaries, for which hashes are added do vendor_db ( if you use vendor_db and have hashes allow-listed )  
 Not used
  - [X] any extra patches to shim via your own git tree or as files  
@@ -15,9 +15,9 @@ Not used
  - [X] any extra patches to grub via your own git tree or as files  
  GRUB bootloader is not used
  - [X] build logs  
- https://github.com/EgoSecure/shim-review/tree/egosecure-shim-x64-20210422/build.log
+ https://github.com/EgoSecure/shim-review/tree/egosecure-shim-x64-20210426/build.log
  - [X] a Dockerfile to reproduce the build of the provided shim EFI binaries  
- https://github.com/EgoSecure/shim-review/tree/egosecure-shim-x64-20210422/Dockerfile
+ https://github.com/EgoSecure/shim-review/tree/egosecure-shim-x64-20210426/Dockerfile
 
 
 ###### What organization or people are asking to have this signed:
@@ -111,4 +111,4 @@ All our componets have digital signature`
 `Update shim version to 15.4`
 
 ###### What is the SHA256 hash of your final SHIM binary?
-`aa60caba1cf42e73ad297039c544aa3bc057fa3e8ede5b56028ce1dbe5615d99`
+`2995bb22bf65facfe0601214dba68e05cca8647c79e8461e320b8983d6067077`

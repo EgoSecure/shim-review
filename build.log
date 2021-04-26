@@ -1,51 +1,58 @@
 ===================================
 COPY SHIM 15.4 SOURCES
 ===================================
---2021-04-21 12:20:52--  https://github.com/rhboot/shim/releases/download/15.4/shim-15.4.tar.bz2
+--2021-04-26 08:02:37--  https://github.com/rhboot/shim/releases/download/15.4/shim-15.4.tar.bz2
 Resolving github.com (github.com)... 140.82.121.3
 Connecting to github.com (github.com)|140.82.121.3|:443... connected.
 HTTP request sent, awaiting response... 302 Found
-Location: https://github-releases.githubusercontent.com/3996476/6dda6900-917a-11eb-956e-a746627a51ec?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20210421%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210421T122052Z&X-Amz-Expires=300&X-Amz-Signature=a9d573188031ca7e9011d797bd26496d37aee8ad203a101d289353102fd8463e&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=3996476&response-content-disposition=attachment%3B%20filename%3Dshim-15.4.tar.bz2&response-content-type=application%2Foctet-stream [following]
---2021-04-21 12:20:53--  https://github-releases.githubusercontent.com/3996476/6dda6900-917a-11eb-956e-a746627a51ec?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20210421%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210421T122052Z&X-Amz-Expires=300&X-Amz-Signature=a9d573188031ca7e9011d797bd26496d37aee8ad203a101d289353102fd8463e&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=3996476&response-content-disposition=attachment%3B%20filename%3Dshim-15.4.tar.bz2&response-content-type=application%2Foctet-stream
-Resolving github-releases.githubusercontent.com (github-releases.githubusercontent.com)... 185.199.110.154, 185.199.109.154, 185.199.108.154, ...
-Connecting to github-releases.githubusercontent.com (github-releases.githubusercontent.com)|185.199.110.154|:443... connected.
+Location: https://github-releases.githubusercontent.com/3996476/6dda6900-917a-11eb-956e-a746627a51ec?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20210426%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210426T080208Z&X-Amz-Expires=300&X-Amz-Signature=3a1cbe453fdc5735ee14f8f363c4241c967d16d5a1a5f50f3c84a85b700efca1&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=3996476&response-content-disposition=attachment%3B%20filename%3Dshim-15.4.tar.bz2&response-content-type=application%2Foctet-stream [following]
+--2021-04-26 08:02:38--  https://github-releases.githubusercontent.com/3996476/6dda6900-917a-11eb-956e-a746627a51ec?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20210426%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210426T080208Z&X-Amz-Expires=300&X-Amz-Signature=3a1cbe453fdc5735ee14f8f363c4241c967d16d5a1a5f50f3c84a85b700efca1&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=3996476&response-content-disposition=attachment%3B%20filename%3Dshim-15.4.tar.bz2&response-content-type=application%2Foctet-stream
+Resolving github-releases.githubusercontent.com (github-releases.githubusercontent.com)... 185.199.111.154, 185.199.108.154, 185.199.110.154, ...
+Connecting to github-releases.githubusercontent.com (github-releases.githubusercontent.com)|185.199.111.154|:443... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 1260475 (1.2M) [application/octet-stream]
 Saving to: 'shim-15.4.tar.bz2'
 
-     0K .......... .......... .......... .......... ..........  4%  486K 2s
-    50K .......... .......... .......... .......... ..........  8%  502K 2s
-   100K .......... .......... .......... .......... .......... 12%  519K 2s
-   150K .......... .......... .......... .......... .......... 16% 1.45M 2s
-   200K .......... .......... .......... .......... .......... 20%  478K 2s
-   250K .......... .......... .......... .......... .......... 24%  445K 2s
-   300K .......... .......... .......... .......... .......... 28%  415K 2s
-   350K .......... .......... .......... .......... .......... 32%  435K 2s
-   400K .......... .......... .......... .......... .......... 36%  375K 2s
-   450K .......... .......... .......... .......... .......... 40%  534K 1s
-   500K .......... .......... .......... .......... .......... 44%  548K 1s
-   550K .......... .......... .......... .......... .......... 48%  552K 1s
-   600K .......... .......... .......... .......... .......... 52%  617K 1s
-   650K .......... .......... .......... .......... .......... 56%  673K 1s
-   700K .......... .......... .......... .......... .......... 60%  677K 1s
-   750K .......... .......... .......... .......... .......... 64%  739K 1s
-   800K .......... .......... .......... .......... .......... 69%  820K 1s
-   850K .......... .......... .......... .......... .......... 73%  742K 1s
-   900K .......... .......... .......... .......... .......... 77%  889K 0s
-   950K .......... .......... .......... .......... .......... 81%  816K 0s
-  1000K .......... .......... .......... .......... .......... 85%  715K 0s
-  1050K .......... .......... .......... .......... .......... 89% 1.16M 0s
-  1100K .......... .......... .......... .......... .......... 93%  987K 0s
-  1150K .......... .......... .......... .......... .......... 97%  759K 0s
-  1200K .......... .......... ..........                      100% 1.60M=2.0s
+     0K .......... .......... .......... .......... ..........  4% 1.59M 1s
+    50K .......... .......... .......... .......... ..........  8% 1.67M 1s
+   100K .......... .......... .......... .......... .......... 12% 4.82M 1s
+   150K .......... .......... .......... .......... .......... 16% 2.54M 0s
+   200K .......... .......... .......... .......... .......... 20% 2.28M 0s
+   250K .......... .......... .......... .......... .......... 24% 5.70M 0s
+   300K .......... .......... .......... .......... .......... 28% 6.29M 0s
+   350K .......... .......... .......... .......... .......... 32% 5.80M 0s
+   400K .......... .......... .......... .......... .......... 36% 1.12M 0s
+   450K .......... .......... .......... .......... .......... 40% 8.85M 0s
+   500K .......... .......... .......... .......... .......... 44% 6.09M 0s
+   550K .......... .......... .......... .......... .......... 48% 13.5M 0s
+   600K .......... .......... .......... .......... .......... 52% 2.91M 0s
+   650K .......... .......... .......... .......... .......... 56% 3.52M 0s
+   700K .......... .......... .......... .......... .......... 60% 1.13M 0s
+   750K .......... .......... .......... .......... .......... 64% 5.03M 0s
+   800K .......... .......... .......... .......... .......... 69% 5.66M 0s
+   850K .......... .......... .......... .......... .......... 73% 18.6M 0s
+   900K .......... .......... .......... .......... .......... 77% 7.95M 0s
+   950K .......... .......... .......... .......... .......... 81% 1.91M 0s
+  1000K .......... .......... .......... .......... .......... 85% 3.39M 0s
+  1050K .......... .......... .......... .......... .......... 89% 2.48M 0s
+  1100K .......... .......... .......... .......... .......... 93% 3.06M 0s
+  1150K .......... .......... .......... .......... .......... 97% 3.22M 0s
+  1200K .......... .......... ..........                      100% 5.70M=0.4s
 
-2021-04-21 12:20:55 (621 KB/s) - 'shim-15.4.tar.bz2' saved [1260475/1260475]
+2021-04-26 08:02:38 (3.06 MB/s) - 'shim-15.4.tar.bz2' saved [1260475/1260475]
 
 ======================================================================
 COPY CERTIFICATE AND SBAT FILES TO SHIM BUILD DIRECTORY
 ======================================================================
 'egosecure.public.cer' -> 'shim-15.4/egosecure.public.cer'
 'sbat.egosecure.csv' -> 'shim-15.4/data/sbat.egosecure.csv'
+===================================
+APPLY PATCHES
+===================================
+patching file mok.c
+patching file elf_ia32_efi.lds
+patching file mok.c
+patching file mok.c
 ===================================
 BUILD SHIM-15.4 FROM SOURCES
 ===================================
@@ -542,9 +549,9 @@ make -C /build/shim-15.4/gnu-efi/x86_64/lib -f /build/shim-15.4/gnu-efi//lib/Mak
 make[2]: Entering directory '/build/shim-15.4/gnu-efi/x86_64/lib'
 make -C /build/shim-15.4/gnu-efi/x86_64/inc -f /build/shim-15.4/gnu-efi//inc/Makefile SRCDIR=/build/shim-15.4/gnu-efi//inc ARCH=x86_64
 make[2]: Entering directory '/build/shim-15.4/gnu-efi/x86_64/inc'
-gcc -I/build/shim-15.4/gnu-efi//lib -I/build/shim-15.4/gnu-efi/inc -I/build/shim-15.4/gnu-efi/inc/x86_64 -I/build/shim-15.4/gnu-efi/inc/protocol -Wno-error=pragmas -mno-red-zone -mno-avx -fpic  -Os -Wall -Wextra -Wno-missing-field-initializers -Werror -fshort-wchar -fno-strict-aliasing -ffreestanding -fno-stack-protector -fno-stack-check -nostdinc -isystem /build/shim-15.4/gnu-efi/../include/system -isystem /usr/lib/gcc/x86_64-linux-gnu/7/include -fno-merge-all-constants -DCONFIG_x86_64 -DGNU_EFI_USE_MS_ABI -DGNU_EFI_USE_EXTERNAL_STDARG -maccumulate-outgoing-args --std=c11 -c /build/shim-15.4/gnu-efi//lib/boxdraw.c -o boxdraw.o
 make[2]: Nothing to be done for 'all'.
 make[2]: Leaving directory '/build/shim-15.4/gnu-efi/x86_64/inc'
+gcc -I/build/shim-15.4/gnu-efi//lib -I/build/shim-15.4/gnu-efi/inc -I/build/shim-15.4/gnu-efi/inc/x86_64 -I/build/shim-15.4/gnu-efi/inc/protocol -Wno-error=pragmas -mno-red-zone -mno-avx -fpic  -Os -Wall -Wextra -Wno-missing-field-initializers -Werror -fshort-wchar -fno-strict-aliasing -ffreestanding -fno-stack-protector -fno-stack-check -nostdinc -isystem /build/shim-15.4/gnu-efi/../include/system -isystem /usr/lib/gcc/x86_64-linux-gnu/7/include -fno-merge-all-constants -DCONFIG_x86_64 -DGNU_EFI_USE_MS_ABI -DGNU_EFI_USE_EXTERNAL_STDARG -maccumulate-outgoing-args --std=c11 -c /build/shim-15.4/gnu-efi//lib/boxdraw.c -o boxdraw.o
 gcc -I/build/shim-15.4/gnu-efi//lib -I/build/shim-15.4/gnu-efi/inc -I/build/shim-15.4/gnu-efi/inc/x86_64 -I/build/shim-15.4/gnu-efi/inc/protocol -Wno-error=pragmas -mno-red-zone -mno-avx -fpic  -Os -Wall -Wextra -Wno-missing-field-initializers -Werror -fshort-wchar -fno-strict-aliasing -ffreestanding -fno-stack-protector -fno-stack-check -nostdinc -isystem /build/shim-15.4/gnu-efi/../include/system -isystem /usr/lib/gcc/x86_64-linux-gnu/7/include -fno-merge-all-constants -DCONFIG_x86_64 -DGNU_EFI_USE_MS_ABI -DGNU_EFI_USE_EXTERNAL_STDARG -maccumulate-outgoing-args --std=c11 -c /build/shim-15.4/gnu-efi//lib/smbios.c -o smbios.o
 gcc -I/build/shim-15.4/gnu-efi//lib -I/build/shim-15.4/gnu-efi/inc -I/build/shim-15.4/gnu-efi/inc/x86_64 -I/build/shim-15.4/gnu-efi/inc/protocol -Wno-error=pragmas -mno-red-zone -mno-avx -fpic  -Os -Wall -Wextra -Wno-missing-field-initializers -Werror -fshort-wchar -fno-strict-aliasing -ffreestanding -fno-stack-protector -fno-stack-check -nostdinc -isystem /build/shim-15.4/gnu-efi/../include/system -isystem /usr/lib/gcc/x86_64-linux-gnu/7/include -fno-merge-all-constants -DCONFIG_x86_64 -DGNU_EFI_USE_MS_ABI -DGNU_EFI_USE_EXTERNAL_STDARG -maccumulate-outgoing-args --std=c11 -c /build/shim-15.4/gnu-efi//lib/console.c -o console.o
 gcc -I/build/shim-15.4/gnu-efi//lib -I/build/shim-15.4/gnu-efi/inc -I/build/shim-15.4/gnu-efi/inc/x86_64 -I/build/shim-15.4/gnu-efi/inc/protocol -Wno-error=pragmas -mno-red-zone -mno-avx -fpic  -Os -Wall -Wextra -Wno-missing-field-initializers -Werror -fshort-wchar -fno-strict-aliasing -ffreestanding -fno-stack-protector -fno-stack-check -nostdinc -isystem /build/shim-15.4/gnu-efi/../include/system -isystem /usr/lib/gcc/x86_64-linux-gnu/7/include -fno-merge-all-constants -DCONFIG_x86_64 -DGNU_EFI_USE_MS_ABI -DGNU_EFI_USE_EXTERNAL_STDARG -maccumulate-outgoing-args --std=c11 -c /build/shim-15.4/gnu-efi//lib/crc.c -o crc.o
@@ -629,7 +636,7 @@ objcopy -D -j .text -j .sdata -j .data -j .data.ident \
 dd conv=notrunc bs=1 count=4 seek=136 if=/dev/zero of=shimx64.efi
 4+0 records in
 4+0 records out
-4 bytes copied, 3.2554e-05 s, 123 kB/s
+4 bytes copied, 3.1422e-05 s, 127 kB/s
 objcopy -D -j .text -j .sdata -j .data \
 	-j .dynamic -j .rodata -j .rel* \
 	-j .rela* -j .reloc -j .eh_frame -j .sbat \
@@ -666,7 +673,7 @@ objcopy -D -j .text -j .sdata -j .data -j .data.ident \
 dd conv=notrunc bs=1 count=4 seek=136 if=/dev/zero of=mmx64.efi
 4+0 records in
 4+0 records out
-4 bytes copied, 4.8502e-05 s, 82.5 kB/s
+4 bytes copied, 3.5738e-05 s, 112 kB/s
 objcopy -D -j .text -j .sdata -j .data -j .data.ident \
 	-j .dynamic -j .rodata -j .rel* \
 	-j .rela* -j .reloc -j .eh_frame \
@@ -676,7 +683,7 @@ objcopy -D -j .text -j .sdata -j .data -j .data.ident \
 dd conv=notrunc bs=1 count=4 seek=136 if=/dev/zero of=fbx64.efi
 4+0 records in
 4+0 records out
-4 bytes copied, 4.6369e-05 s, 86.3 kB/s
+4 bytes copied, 3.7152e-05 s, 108 kB/s
 'shim-15.4/shimx64.efi' -> 'shimx64.efi-docker'
 ===================================
 COMPARE SHIM FILES
@@ -686,5 +693,5 @@ shimx64.efi-docker - reproduced shim build binary file
 diff shim.efi shimx64.efi-docker -s
 Files shim.efi and shimx64.efi-docker are identical
 sha256sum shim.efi shimx64.efi-docker
-aa60caba1cf42e73ad297039c544aa3bc057fa3e8ede5b56028ce1dbe5615d99  shim.efi
-aa60caba1cf42e73ad297039c544aa3bc057fa3e8ede5b56028ce1dbe5615d99  shimx64.efi-docker
+2995bb22bf65facfe0601214dba68e05cca8647c79e8461e320b8983d6067077  shim.efi
+2995bb22bf65facfe0601214dba68e05cca8647c79e8461e320b8983d6067077  shimx64.efi-docker

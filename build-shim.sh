@@ -27,6 +27,14 @@ cp $SBAT_FILE $SRC_DIR/data/ -v
 cd $SRC_DIR
 
 echo ===================================
+echo           APPLY PATCHES
+echo ===================================
+patch < ../patches/0001-Fix-handling-of-ignore_db-and-user_insecure_mode.patch
+patch < ../patches/0002-Fix-a-broken-file-header-on-ia32.patch
+patch < ../patches/0003-mok-allocate-MOK-config-table-as-BootServicesData.patch
+patch < ../patches/0004-Don-t-call-QueryVariableInfo-on-EFI-1.10-machines.patch
+
+echo ===================================
 echo     BUILD SHIM-15.4 FROM SOURCES
 echo ===================================
 export VENDOR_CERT_FILE=$CERT_FILE
