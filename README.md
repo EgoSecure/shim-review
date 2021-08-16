@@ -70,7 +70,8 @@ Some patches from shim upstream (shim 15.4 critical regressions)
 [Don't call QueryVariableInfo() on EFI 1.10 machines](https://github.com/rhboot/shim/pull/364)  
 [Fix a broken file header on ia32 ](https://github.com/rhboot/shim/commit/5b3ca0d2f7b5f425ba1a14db8ce98b8d95a2f89f)  
 [Fix handling of ignore_db and user_insecure_mode](https://github.com/rhboot/shim/commit/822d07ad4f07ef66fe447a130e1027c88d02a394)  
-[mok: allocate MOK config table as BootServicesData](https://github.com/rhboot/shim/commit/4068fd42c891ea6ebdec056f461babc6e4048844)  
+[mok: allocate MOK config table as BootServicesData](https://github.com/rhboot/shim/commit/4068fd42c891ea6ebdec056f461babc6e4048844)
+[shim: don't fail on the odd LoadOptions length](https://github.com/rhboot/shim/commit/ada7ff69bd8a95614aa63dd618764daf428f235d)
 
 -------------------------------------------------------------------------------
 If bootloader, shim loading is, GRUB2: is CVE-2020-14372, CVE-2020-25632,
