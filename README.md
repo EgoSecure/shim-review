@@ -149,6 +149,6 @@ build.log
 Add any additional information you think we may need to validate this shim
 -------------------------------------------------------------------------------
 file: shim.efi  
-sha256: 2995bb22bf65facfe0601214dba68e05cca8647c79e8461e320b8983d6067077  
+sha256: 08fec66af4e5dae4cbfbbfa32c32fe5fa4c60ac187d342bc67906f1a466baa0e  
 We use a custom second-state loader. According to business logic, the loader can start Microsoft Windows Boot Manager or own Linux Kernel image.  
 To start the loader we create own EFI boot entry.  
