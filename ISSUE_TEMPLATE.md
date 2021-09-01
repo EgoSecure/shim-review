@@ -1,23 +1,28 @@
 Make sure you have provided the following information:
 
  - [X] link to your code branch cloned from rhboot/shim-review in the form user/repo@tag  
- [EgoSecure/shim-review@egosecure-shim-x64-20210426](https://github.com/EgoSecure/shim-review/tree/egosecure-shim-x64-20210426)
+ [EgoSecure/shim-review@egosecure-shim-x64-20210901](https://github.com/EgoSecure/shim-review/tree/egosecure-shim-x64-20210901)
  - [X] completed README.md file with the necessary information  
- https://github.com/EgoSecure/shim-review/tree/egosecure-shim-x64-20210426/README.md
+ https://github.com/EgoSecure/shim-review/tree/egosecure-shim-x64-20210901/README.md
  - [X] shim.efi to be signed  
- https://github.com/EgoSecure/shim-review/tree/egosecure-shim-x64-20210426/shim.efi
+ https://github.com/EgoSecure/shim-review/tree/egosecure-shim-x64-20210901/shim.efi
  - [X] public portion of your certificate(s) embedded in shim (the file passed to VENDOR_CERT_FILE)  
- https://github.com/EgoSecure/shim-review/tree/egosecure-shim-x64-20210426/egosecure.public.cer
+ https://github.com/EgoSecure/shim-review/tree/egosecure-shim-x64-20210901/egosecure.public.cer
  - [X] binaries, for which hashes are added do vendor_db ( if you use vendor_db and have hashes allow-listed )  
 Not used
  - [X] any extra patches to shim via your own git tree or as files  
- No extra patches
+  Some patches from shim upstream (shim 15.4 critical regressions)  
+  [Don't call QueryVariableInfo() on EFI 1.10 machines](https://github.com/EgoSecure/shim-review/tree/egosecure-shim-x64-20210901/patches/0004-Don-t-call-QueryVariableInfo-on-EFI-1.10-machines.patch)  
+  [Fix a broken file header on ia32 ](https://github.com/EgoSecure/shim-review/tree/egosecure-shim-x64-20210901/patches/0002-Fix-a-broken-file-header-on-ia32.patch)  
+  [Fix handling of ignore_db and user_insecure_mode](https://github.com/EgoSecure/shim-review/tree/egosecure-shim-x64-20210901/patches/0001-Fix-handling-of-ignore_db-and-user_insecure_mode.patch)  
+  [mok: allocate MOK config table as BootServicesData](https://github.com/EgoSecure/shim-review/tree/egosecure-shim-x64-20210901/patches/0003-mok-allocate-MOK-config-table-as-BootServicesData.patch)  
+  [Bypass boot options](https://github.com/EgoSecure/shim-review/tree/egosecure-shim-x64-20210901/patches/0005-Bypass-boot-options.patch)  
  - [X] any extra patches to grub via your own git tree or as files  
  GRUB bootloader is not used
  - [X] build logs  
- https://github.com/EgoSecure/shim-review/tree/egosecure-shim-x64-20210426/build.log
+  https://github.com/EgoSecure/shim-review/tree/egosecure-shim-x64-20210901/build.log
  - [X] a Dockerfile to reproduce the build of the provided shim EFI binaries  
- https://github.com/EgoSecure/shim-review/tree/egosecure-shim-x64-20210426/Dockerfile
+  https://github.com/EgoSecure/shim-review/tree/egosecure-shim-x64-20210901/Dockerfile
 
 
 ###### What organization or people are asking to have this signed:
@@ -108,7 +113,8 @@ All our componets have digital signature`
 `Linux kernel 5.5.7, which has the all the required patches to enforce the secure boot`
 
 ###### What changes were made since your SHIM was last signed?
-`Update shim version to 15.4`
+`We have added only one patch to fix boot on some systems`  
+`Added a patch to bypass the boot option parsing. This code failed on some systems and produced a non-bootable name for the second stage loader. Because we are using custom filename for the second stage loader, we just bypass this code with this patch.`  
 
 ###### What is the SHA256 hash of your final SHIM binary?
-`2995bb22bf65facfe0601214dba68e05cca8647c79e8461e320b8983d6067077`
+`677a9a828a1f20db92d4e6d1d75ad17321db1dc5c3ce4504d75715c828275ed1  `
